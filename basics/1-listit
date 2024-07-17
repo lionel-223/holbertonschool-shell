@@ -1,2 +1,5 @@
 #!/bin/bash
-echo $(ls)
+for element in $(ls); do
+    echo $element
+done
+
