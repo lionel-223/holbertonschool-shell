@@ -1,5 +1,3 @@
 #!/bin/bash
-for element in $(ls); do
-    echo $element
-done
+echo $(ls)
 
